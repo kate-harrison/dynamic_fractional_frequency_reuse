@@ -36,7 +36,8 @@ FFR48 = zeros([1 16]);
 
 for iteration = 1:num_iterations
     for scheme_type = [1 4 48]
-%         reuse_scheme = ['FFR' num2str(scheme_type)];
+        c = scheme_type;
+        Ns = 48/c;
         reuse_scheme = ['FFR, c=' num2str(c) ', Ns=' num2str(Ns)];
 
         % Load the appropriate file
