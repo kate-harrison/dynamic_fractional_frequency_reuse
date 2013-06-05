@@ -71,8 +71,11 @@ please consider citing our code or our paper (or both).
 
 Author information
 ------------------
-Kate Harrison
+**Kate Harrison**
+ * UC Berkeley graduate student in EECS
+ * ASDFharriska at eecs dot berkeley dot edu (remove the characters 'ASDF' first)
 
-UC Berkeley graduate student
-
-ASDFharriska at eecs dot berkeley dot edu (remove the characters 'ASDF' first)
+**Gireeja Ranade**
+ * EECS
+ * UC Berkeley
+ * gireeja@eecs.berkeley.edu
