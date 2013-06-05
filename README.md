@@ -46,15 +46,13 @@ help you understand what the parameters of main_program.m are.
 
 Directories
 -----------
-Miscellaneous useful files are kept in the Helpers/ directory to reduce
+ * Miscellaneous useful files are kept in the Helpers/ directory to reduce
 clutter and confusion.
+ * All generated data is stored in the data/ directory.
+ * All generated figures are stored in the Figures/ directory.
+ * Since some of the computations can take a long time, partial data is stored in the case of an interruption. There are many such files (over 1200 if you generate the data required for all of the figures) and they are stored in the partial_data/ directory.
 
-All generated data is stored in the data/ directory.
-
-All generated figures are stored in the Figures/ directory.
-
-*** All of these directories will be automatically added to your path
-when you run 'run_me_first.m'. ***
+**All of these directories will be automatically added to your path when you run 'run_me_first.m'.**
 
 
 Code support and maintenance
