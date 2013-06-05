@@ -1,5 +1,9 @@
+Code for "Dynamic Fractional Frequency Reuse in OFDMA Systems" by Kate Harrison and Gireeja Ranade
+==================================================================================================
+
+
 Context
-=======
+-------
 This code accmpanies the paper "Dynamic Fractional Frequency Reuse in
 OFDMA Systems" by Kate Harrison and Gireeja Ranade. The paper can be
 found [here](http://www.eecs.berkeley.edu/~gireeja/ee224b_gireejaranade_kateharrison.pdf).
@@ -11,7 +15,7 @@ fractional frequency reuse in OFDMA systems".
 
 
 Code organization
-=================
+-----------------
 General simulation parameters are stored in get_simulation_parameter.m.
 While these values are frequently used throughout the code, there is no
 guarantee that changes will propagate as desired. Please double-check the
@@ -54,21 +58,23 @@ when you run 'run_me_first.m'. ***
 
 
 Code support and maintenance
-============================
+----------------------------
 I (Kate) do not intend to maintain this code any longer. I may be able to
 provide limited support so please email me if you have any questions or
 if you find any issues.
 
 
 Copyright information
-=====================
+---------------------
 This code is freely available to anyone who wants to use it and is
 provided without guarantee. If you build off of it or find it useful,
 please consider citing our code or our paper (or both).
 
 
 Author information
-==================
+------------------
 Kate Harrison
+
 UC Berkeley graduate student
+
 ASDFharriska at eecs dot berkeley dot edu (remove the characters 'ASDF' first)
