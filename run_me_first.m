@@ -26,10 +26,11 @@ addpath(new_paths);
 
 
 %% Create the directories data/ and Figures/ if they don't already exist
-for i = 1:2
+for i = 1:3
     switch(i)
         case 1, dir_name = 'data';
         case 2, dir_name = 'Figures';
+        case 3, dir_name = 'partial_data';
     end
     
     if (exist(dir_name, 'dir') ~= 7)

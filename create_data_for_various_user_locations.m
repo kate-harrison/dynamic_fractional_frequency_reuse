@@ -181,7 +181,7 @@ for iteration = 1:num_iterations
         
         % Iterate over the power constraint (p)
         for p_idx = 1:length(p_array)
-            p_filename = ['data/dist_type=' num2str(dist_type) ', reuse=' reuse_scheme ...
+            p_filename = ['partial_data/dist_type=' num2str(dist_type) ', reuse=' reuse_scheme ...
                 ', iteration=' num2str(iteration) ', p_idx=' num2str(p_idx)];
             if exist([p_filename '.mat'], 'file') == 2
                 display(['Skipping p_idx=' num2str(p_idx) ': data already exists.']);
